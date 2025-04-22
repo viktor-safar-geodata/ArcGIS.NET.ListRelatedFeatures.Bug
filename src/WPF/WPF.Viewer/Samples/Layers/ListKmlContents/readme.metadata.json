@@ -1,0 +1,37 @@
+{
+    "category": "Layers",
+    "description": "List the contents of a KML file.",
+    "formal_name": "ListKmlContents",
+    "ignore": false,
+    "images": [
+        "ListKmlContents.jpg"
+    ],
+    "keywords": [
+        "KML",
+        "KMZ",
+        "Keyhole",
+        "OGC",
+        "layers"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/list-kml-contents.htm"
+    ],
+    "relevant_apis": [
+        "KmlContainer",
+        "KmlDataset",
+        "KmlDocument",
+        "KmlFolder",
+        "KmlGroundOverlay",
+        "KmlLayer",
+        "KmlNetworkLink",
+        "KmlNode",
+        "KmlPlacemark",
+        "KmlScreenOverlay"
+    ],
+    "snippets": [
+        "ListKmlContents.xaml.cs",
+        "ListKmlContents.xaml"
+    ],
+    "title": "List KML contents"
+}

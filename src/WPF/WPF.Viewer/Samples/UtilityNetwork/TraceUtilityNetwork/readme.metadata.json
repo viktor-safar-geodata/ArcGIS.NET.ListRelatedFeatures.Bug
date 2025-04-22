@@ -1,0 +1,48 @@
+{
+    "category": "Utility network",
+    "description": "Discover connected features in a utility network using connected, subnetwork, upstream, and downstream traces.",
+    "formal_name": "TraceUtilityNetwork",
+    "ignore": false,
+    "images": [
+        "TraceUtilityNetwork.jpg"
+    ],
+    "keywords": [
+        "condition barriers",
+        "downstream trace",
+        "network analysis",
+        "subnetwork trace",
+        "toolkit",
+        "trace configuration",
+        "traversability",
+        "upstream trace",
+        "utility network",
+        "validate consistency"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/trace-utility-network.htm"
+    ],
+    "relevant_apis": [
+        "FractionAlong",
+        "ServiceGeodatabase",
+        "UtilityAssetType",
+        "UtilityDomainNetwork",
+        "UtilityElement",
+        "UtilityElementTraceResult",
+        "UtilityNetwork",
+        "UtilityNetworkDefinition",
+        "UtilityNetworkSource",
+        "UtilityTerminal",
+        "UtilityTier",
+        "UtilityTraceConfiguration",
+        "UtilityTraceParameters",
+        "UtilityTraceResult",
+        "UtilityTraceType",
+        "UtilityTraversability"
+    ],
+    "snippets": [
+        "TraceUtilityNetwork.xaml.cs",
+        "TraceUtilityNetwork.xaml"
+    ],
+    "title": "Trace utility network"
+}

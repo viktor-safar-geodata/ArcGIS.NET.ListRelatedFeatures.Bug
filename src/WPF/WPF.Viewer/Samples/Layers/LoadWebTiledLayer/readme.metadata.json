@@ -1,0 +1,28 @@
+{
+    "category": "Layers",
+    "description": "Display a tiled web layer.",
+    "formal_name": "LoadWebTiledLayer",
+    "ignore": false,
+    "images": [
+        "LoadWebTiledLayer.jpg"
+    ],
+    "keywords": [
+        "OGC",
+        "layer",
+        "tiled",
+        "tiles"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/web-tiled-layer.htm"
+    ],
+    "relevant_apis": [
+        "Basemap",
+        "WebTiledLayer"
+    ],
+    "snippets": [
+        "LoadWebTiledLayer.xaml.cs",
+        "LoadWebTiledLayer.xaml"
+    ],
+    "title": "Web tiled layer"
+}

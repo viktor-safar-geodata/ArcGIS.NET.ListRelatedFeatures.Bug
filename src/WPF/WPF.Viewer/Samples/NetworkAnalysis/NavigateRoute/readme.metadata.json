@@ -1,0 +1,39 @@
+{
+    "category": "Network analysis",
+    "description": "Use a routing service to navigate between points.",
+    "formal_name": "NavigateRoute",
+    "ignore": false,
+    "images": [
+        "NavigateRoute.jpg"
+    ],
+    "keywords": [
+        "directions",
+        "maneuver",
+        "navigation",
+        "route",
+        "turn-by-turn",
+        "voice"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/navigate-route.htm"
+    ],
+    "relevant_apis": [
+        "DestinationStatus",
+        "DirectionManeuver",
+        "Location",
+        "LocationDataSource",
+        "ReroutingStrategy",
+        "Route",
+        "RouteParameters",
+        "RouteTask",
+        "RouteTracker",
+        "Stop",
+        "VoiceGuidance"
+    ],
+    "snippets": [
+        "NavigateRoute.xaml.cs",
+        "NavigateRoute.xaml"
+    ],
+    "title": "Navigate route"
+}

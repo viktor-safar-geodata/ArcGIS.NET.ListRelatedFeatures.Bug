@@ -1,0 +1,32 @@
+{
+    "category": "Layers",
+    "description": "Display an OGC API feature collection and query features while navigating the map view.",
+    "formal_name": "DisplayOACollection",
+    "ignore": false,
+    "images": [
+        "DisplayOACollection.jpg"
+    ],
+    "keywords": [
+        "OGC",
+        "OGC API",
+        "feature",
+        "feature layer",
+        "feature table",
+        "service",
+        "table",
+        "web"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/display-ogc-api-collection.htm"
+    ],
+    "relevant_apis": [
+        "OgcFeatureCollectionTable",
+        "QueryParameters"
+    ],
+    "snippets": [
+        "DisplayOACollection.xaml.cs",
+        "DisplayOACollection.xaml"
+    ],
+    "title": "Display OGC API collection"
+}

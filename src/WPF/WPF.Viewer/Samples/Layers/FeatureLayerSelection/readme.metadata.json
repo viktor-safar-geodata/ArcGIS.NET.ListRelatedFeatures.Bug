@@ -1,0 +1,30 @@
+{
+    "category": "Layers",
+    "description": "Select features in a feature layer.",
+    "formal_name": "FeatureLayerSelection",
+    "ignore": false,
+    "images": [
+        "FeatureLayerSelection.jpg"
+    ],
+    "keywords": [
+        "features",
+        "layers",
+        "select",
+        "selection",
+        "tolerance"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/feature-layer-selection.htm"
+    ],
+    "relevant_apis": [
+        "Feature",
+        "FeatureLayer",
+        "ServiceFeatureTable"
+    ],
+    "snippets": [
+        "FeatureLayerSelection.xaml.cs",
+        "FeatureLayerSelection.xaml"
+    ],
+    "title": "Feature layer selection"
+}

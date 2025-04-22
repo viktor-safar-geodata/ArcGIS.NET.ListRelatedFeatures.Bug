@@ -1,0 +1,36 @@
+{
+    "category": "Layers",
+    "description": "Construct a KML document and save it as a KMZ file.",
+    "formal_name": "CreateAndSaveKmlFile",
+    "ignore": false,
+    "images": [
+        "CreateAndSaveKmlFile.jpg"
+    ],
+    "keywords": [
+        "KML",
+        "KMZ",
+        "Keyhole",
+        "OGC",
+        "geometry editor"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/create-and-save-kml-file.htm"
+    ],
+    "relevant_apis": [
+        "GeometryEditor",
+        "GeometryEngine.Project",
+        "KmlDataset",
+        "KmlDocument",
+        "KmlGeometry",
+        "KmlLayer",
+        "KmlNode.SaveAsASync",
+        "KmlPlacemark",
+        "KmlStyle"
+    ],
+    "snippets": [
+        "CreateAndSaveKmlFile.xaml.cs",
+        "CreateAndSaveKmlFile.xaml"
+    ],
+    "title": "Create and save KML file"
+}

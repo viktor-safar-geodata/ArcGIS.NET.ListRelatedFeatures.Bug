@@ -1,0 +1,28 @@
+{
+    "category": "Layers",
+    "description": "Display a raster on a map and apply different rendering rules to that raster.",
+    "formal_name": "RasterRenderingRule",
+    "ignore": false,
+    "images": [
+        "RasterRenderingRule.jpg"
+    ],
+    "keywords": [
+        "raster",
+        "rendering rules",
+        "visualization"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/raster-rendering-rule.htm"
+    ],
+    "relevant_apis": [
+        "ImageServiceRaster",
+        "RasterLayer",
+        "RenderingRule"
+    ],
+    "snippets": [
+        "RasterRenderingRule.xaml.cs",
+        "RasterRenderingRule.xaml"
+    ],
+    "title": "Raster rendering rule"
+}

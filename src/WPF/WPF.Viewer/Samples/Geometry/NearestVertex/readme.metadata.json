@@ -1,0 +1,30 @@
+{
+    "category": "Geometry",
+    "description": "Find the closest vertex and coordinate of a geometry to a point.",
+    "formal_name": "NearestVertex",
+    "ignore": false,
+    "images": [
+        "NearestVertex.jpg"
+    ],
+    "keywords": [
+        "analysis",
+        "coordinate",
+        "geometry",
+        "nearest",
+        "proximity",
+        "vertex"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/nearest-vertex.htm"
+    ],
+    "relevant_apis": [
+        "GeometryEngine",
+        "ProximityResult"
+    ],
+    "snippets": [
+        "NearestVertex.xaml.cs",
+        "NearestVertex.xaml"
+    ],
+    "title": "Nearest vertex"
+}

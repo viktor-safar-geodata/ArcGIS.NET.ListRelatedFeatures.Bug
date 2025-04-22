@@ -1,0 +1,30 @@
+{
+    "category": "Layers",
+    "description": "Apply mosaic rule to a mosaic dataset of rasters.",
+    "formal_name": "ApplyMosaicRule",
+    "ignore": false,
+    "images": [
+        "ApplyMosaicRule.jpg"
+    ],
+    "keywords": [
+        "image service",
+        "mosaic method",
+        "mosaic rule",
+        "raster"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/apply-mosaic-rule-to-rasters.htm"
+    ],
+    "relevant_apis": [
+        "ImageServiceRaster",
+        "MosaicMethod",
+        "MosaicOperation",
+        "MosaicRule"
+    ],
+    "snippets": [
+        "ApplyMosaicRule.xaml.cs",
+        "ApplyMosaicRule.xaml"
+    ],
+    "title": "Apply mosaic rule to rasters"
+}

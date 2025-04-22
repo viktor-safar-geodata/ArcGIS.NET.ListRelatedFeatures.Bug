@@ -1,0 +1,33 @@
+{
+    "category": "Layers",
+    "description": "Create a feature collection layer from a portal item.",
+    "formal_name": "FeatureCollectionLayerFromPortal",
+    "ignore": false,
+    "images": [
+        "FeatureCollectionLayerFromPortal.jpg"
+    ],
+    "keywords": [
+        "collection",
+        "feature collection",
+        "feature collection layer",
+        "id",
+        "item",
+        "map notes",
+        "portal"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/create-feature-collection-layer-portal-item.htm"
+    ],
+    "relevant_apis": [
+        "FeatureCollection",
+        "FeatureCollectionLayer",
+        "Portal",
+        "PortalItem"
+    ],
+    "snippets": [
+        "FeatureCollectionLayerFromPortal.xaml.cs",
+        "FeatureCollectionLayerFromPortal.xaml"
+    ],
+    "title": "Create feature collection layer (Portal item)"
+}

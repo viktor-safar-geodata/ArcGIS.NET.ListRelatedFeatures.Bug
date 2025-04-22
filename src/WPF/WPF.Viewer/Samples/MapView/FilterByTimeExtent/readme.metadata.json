@@ -1,0 +1,33 @@
+{
+    "category": "MapView",
+    "description": "The time slider provides controls that allow you to visualize temporal data by applying a specific time extent to a map view.",
+    "formal_name": "FilterByTimeExtent",
+    "ignore": false,
+    "images": [
+        "FilterByTimeExtent.jpg"
+    ],
+    "keywords": [
+        "animate",
+        "data",
+        "filter",
+        "time",
+        "time extent",
+        "time frame",
+        "toolkit"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/filter-by-time-extent.htm"
+    ],
+    "relevant_apis": [
+        "FeatureLayer",
+        "Map",
+        "MapView",
+        "ServiceFeatureTable"
+    ],
+    "snippets": [
+        "FilterByTimeExtent.xaml.cs",
+        "FilterByTimeExtent.xaml"
+    ],
+    "title": "Filter by time extent"
+}

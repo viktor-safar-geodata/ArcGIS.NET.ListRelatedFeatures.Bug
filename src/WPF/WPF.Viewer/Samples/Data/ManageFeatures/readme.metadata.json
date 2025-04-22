@@ -1,0 +1,50 @@
+{
+    "category": "Data",
+    "description": "Create, update, and delete features to manage a feature layer.",
+    "formal_name": "ManageFeatures",
+    "ignore": false,
+    "images": [
+        "ManageFeatures.jpg"
+    ],
+    "keywords": [
+        "amend",
+        "attribute",
+        "create",
+        "delete",
+        "deletion",
+        "details",
+        "edit",
+        "editing",
+        "feature",
+        "feature layer",
+        "feature table",
+        "geodatabase",
+        "information",
+        "moving",
+        "online service",
+        "service",
+        "update",
+        "updating",
+        "value"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/manage-features.htm",
+        "/net/latest/wpf/sample-code/add-features.htm",
+        "/net/latest/wpf/sample-code/delete-features.htm",
+        "/net/latest/wpf/sample-code/update-attributes.htm",
+        "/net/latest/wpf/sample-code/update-geometries.htm"
+    ],
+    "relevant_apis": [
+        "Feature",
+        "FeatureEditResult",
+        "FeatureLayer",
+        "ServiceFeatureTable",
+        "ServiceGeodatabase"
+    ],
+    "snippets": [
+        "ManageFeatures.xaml.cs",
+        "ManageFeatures.xaml"
+    ],
+    "title": "Manage features"
+}

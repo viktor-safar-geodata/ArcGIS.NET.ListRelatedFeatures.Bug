@@ -1,0 +1,30 @@
+{
+    "category": "Search",
+    "description": "Use an online service to find the address for a tapped point.",
+    "formal_name": "ReverseGeocode",
+    "ignore": false,
+    "images": [
+        "ReverseGeocode.jpg"
+    ],
+    "keywords": [
+        "address",
+        "geocode",
+        "locate",
+        "reverse geocode",
+        "search"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/reverse-geocode.htm"
+    ],
+    "relevant_apis": [
+        "GeocodeParameters",
+        "LocatorTask",
+        "ReverseGeocodeParameters"
+    ],
+    "snippets": [
+        "ReverseGeocode.xaml.cs",
+        "ReverseGeocode.xaml"
+    ],
+    "title": "Reverse geocode"
+}

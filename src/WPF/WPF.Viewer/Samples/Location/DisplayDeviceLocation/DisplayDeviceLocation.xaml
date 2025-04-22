@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="ArcGIS.WPF.Samples.DisplayDeviceLocation.DisplayDeviceLocation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:esri="http://schemas.esri.com/arcgis/runtime/2013">
+    <Grid>
+        <esri:MapView x:Name="MyMapView" />
+        <Border Width="200" Style="{StaticResource BorderStyle}">
+            <StackPanel>
+                <TextBlock Margin="0,0,0,5"
+                           FontWeight="Bold"
+                           Text="Select an auto pan mode:"
+                           TextAlignment="Center"
+                           TextWrapping="Wrap" />
+                <ComboBox x:Name="AutoPanModeComboBox"
+                          Margin="0,0,0,5"
+                          HorizontalContentAlignment="Center"
+                          SelectionChanged="AutoPanModeComboBox_SelectionChanged" />
+                <Button x:Name="StartStopButton"
+                        Margin="0,0,0,5"
+                        Click="StartStopButton_Click"
+                        Content="Start" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

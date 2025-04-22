@@ -1,0 +1,33 @@
+{
+    "category": "Layers",
+    "description": "Identify features in a scene to select.",
+    "formal_name": "SceneLayerSelection",
+    "ignore": false,
+    "images": [
+        "SceneLayerSelection.jpg"
+    ],
+    "keywords": [
+        "3D",
+        "Brest",
+        "buildings",
+        "identify",
+        "model",
+        "query",
+        "search",
+        "select"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/scene-layer-selection.htm"
+    ],
+    "relevant_apis": [
+        "ArcGISSceneLayer",
+        "Scene",
+        "SceneView"
+    ],
+    "snippets": [
+        "SceneLayerSelection.xaml.cs",
+        "SceneLayerSelection.xaml"
+    ],
+    "title": "Scene layer selection"
+}

@@ -1,0 +1,123 @@
+﻿<UserControl x:Class="ArcGIS.WPF.Samples.DisplayGrid.DisplayGrid"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:esri="http://schemas.esri.com/arcgis/runtime/2013">
+    <UserControl.Resources>
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin" Value="5" />
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="5" />
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <esri:MapView x:Name="MyMapView" />
+        <esri:SceneView x:Name="MySceneView" Visibility="Collapsed" />
+        <Border Style="{StaticResource BorderStyle}">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="2*" />
+                </Grid.ColumnDefinitions>
+                <!--  Labels  -->
+                <Label Grid.Row="0"
+                       Grid.Column="0"
+                       Content="GeoView" />
+                <Label Grid.Row="1"
+                       Grid.Column="0"
+                       Content="Grid type" />
+                <Label Grid.Row="2"
+                       Grid.Column="0"
+                       Content="Show grid" />
+                <Label Grid.Row="3"
+                       Grid.Column="0"
+                       Content="Show labels" />
+                <Label Grid.Row="4"
+                       Grid.Column="0"
+                       Content="Grid color" />
+                <Label Grid.Row="5"
+                       Grid.Column="0"
+                       Content="Label color" />
+                <Label Grid.Row="6"
+                       Grid.Column="0"
+                       Content="Halo color" />
+                <Label Grid.Row="7"
+                       Grid.Column="0"
+                       Content="Label position" />
+                <Label Grid.Row="8"
+                       Grid.Column="0"
+                       Content="Label format" />
+                <Label Grid.Row="9"
+                       Grid.Column="0"
+                       Content="Label offset" />
+                <!--  Inputs  -->
+                <StackPanel Grid.Row="0"
+                            Grid.Column="1"
+                            Orientation="Horizontal">
+                    <RadioButton x:Name="MapViewRadioButton"
+                                 Margin="5"
+                                 Content="MapView"
+                                 GroupName="GeoViewRadioButtons"
+                                 IsChecked="True" />
+                    <RadioButton Margin="5"
+                                 Content="SceneView"
+                                 GroupName="GeoViewRadioButtons" />
+                </StackPanel>
+                <ComboBox x:Name="GridTypeCombo"
+                          Grid.Row="1"
+                          Grid.Column="1" />
+                <CheckBox x:Name="GridVisibilityCheckbox"
+                          Grid.Row="2"
+                          Grid.Column="1"
+                          Margin="5"
+                          IsChecked="True" />
+                <CheckBox x:Name="LabelVisibilityCheckbox"
+                          Grid.Row="3"
+                          Grid.Column="1"
+                          Margin="5"
+                          IsChecked="True" />
+                <ComboBox x:Name="GridColorCombo"
+                          Grid.Row="4"
+                          Grid.Column="1" />
+                <ComboBox x:Name="LabelColorCombo"
+                          Grid.Row="5"
+                          Grid.Column="1" />
+                <ComboBox x:Name="HaloColorCombo"
+                          Grid.Row="6"
+                          Grid.Column="1" />
+                <ComboBox x:Name="LabelPositionCombo"
+                          Grid.Row="7"
+                          Grid.Column="1" />
+                <ComboBox x:Name="LabelFormatCombo"
+                          Grid.Row="8"
+                          Grid.Column="1" />
+                <Slider x:Name="LabelOffsetSlider"
+                        Grid.Row="9"
+                        Grid.Column="1"
+                        Maximum="150"
+                        Minimum="0"
+                        Value="40" />
+                <!--  Apply  -->
+                <Button x:Name="ApplySettingsButton"
+                        Grid.Row="10"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="2"
+                        Content="Apply settings"
+                        IsEnabled="False" />
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

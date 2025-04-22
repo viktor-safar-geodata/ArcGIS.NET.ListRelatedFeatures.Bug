@@ -1,0 +1,36 @@
+{
+    "category": "Layers",
+    "description": "Browse a WFS service for layers and add them to the map.",
+    "formal_name": "BrowseWfsLayers",
+    "ignore": false,
+    "images": [
+        "BrowseWfsLayers.jpg"
+    ],
+    "keywords": [
+        "OGC",
+        "WFS",
+        "browse",
+        "catalog",
+        "feature",
+        "layers",
+        "service",
+        "web"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/browse-wfs-layers.htm"
+    ],
+    "relevant_apis": [
+        "FeatureLayer",
+        "WfsFeatureTable",
+        "WfsFeatureTable.AxisOrder",
+        "WfsLayerInfo",
+        "WfsService",
+        "WfsServiceInfo"
+    ],
+    "snippets": [
+        "BrowseWfsLayers.xaml.cs",
+        "BrowseWfsLayers.xaml"
+    ],
+    "title": "Browse WFS layers"
+}

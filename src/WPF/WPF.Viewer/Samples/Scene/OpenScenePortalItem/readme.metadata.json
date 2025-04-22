@@ -1,0 +1,28 @@
+{
+    "category": "Scene",
+    "description": "Open a web scene from a portal item.",
+    "formal_name": "OpenScenePortalItem",
+    "ignore": false,
+    "images": [
+        "OpenScenePortalItem.jpg"
+    ],
+    "keywords": [
+        "portal",
+        "scene",
+        "web scene"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/open-scene-portal-item.htm"
+    ],
+    "relevant_apis": [
+        "PortalItem",
+        "Scene",
+        "SceneView"
+    ],
+    "snippets": [
+        "OpenScenePortalItem.xaml.cs",
+        "OpenScenePortalItem.xaml"
+    ],
+    "title": "Open scene (portal item)"
+}

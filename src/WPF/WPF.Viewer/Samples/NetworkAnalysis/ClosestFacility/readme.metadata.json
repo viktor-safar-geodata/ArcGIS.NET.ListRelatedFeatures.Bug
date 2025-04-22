@@ -1,0 +1,35 @@
+{
+    "category": "Network analysis",
+    "description": "Find a route to the closest facility from a location.",
+    "formal_name": "ClosestFacility",
+    "ignore": false,
+    "images": [
+        "ClosestFacility.jpg"
+    ],
+    "keywords": [
+        "incident",
+        "network analysis",
+        "route",
+        "search"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/find-closest-facility-to-an-incident-interactive.htm"
+    ],
+    "relevant_apis": [
+        "ClosestFacilityParameters",
+        "ClosestFacilityResult",
+        "ClosestFacilityRoute",
+        "ClosestFacilityTask",
+        "Facility",
+        "Graphic",
+        "GraphicsOverlay",
+        "Incident",
+        "MapView"
+    ],
+    "snippets": [
+        "ClosestFacility.xaml.cs",
+        "ClosestFacility.xaml"
+    ],
+    "title": "Find closest facility to an incident (interactive)"
+}

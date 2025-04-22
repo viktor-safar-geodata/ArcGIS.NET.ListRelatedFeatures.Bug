@@ -1,0 +1,26 @@
+{
+    "category": "Layers",
+    "description": "Change the visibility of sublayers.",
+    "formal_name": "ChangeSublayerVisibility",
+    "ignore": false,
+    "images": [
+        "ChangeSublayerVisibility.jpg"
+    ],
+    "keywords": [
+        "layers",
+        "sublayers",
+        "visibility"
+    ],
+    "offline_data": [],
+    "redirect_from": [
+        "/net/latest/wpf/sample-code/map-image-layer-sublayer-visibility.htm"
+    ],
+    "relevant_apis": [
+        "ArcGISMapImageLayer"
+    ],
+    "snippets": [
+        "ChangeSublayerVisibility.xaml.cs",
+        "ChangeSublayerVisibility.xaml"
+    ],
+    "title": "Map image layer sublayer visibility"
+}
